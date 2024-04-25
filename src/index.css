@@ -11,3 +11,153 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 60px;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s;
+
+  &:hover {
+    width: 150px;
+  }
+}
+
+.middle-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+i {
+  font-size: x-large;
+}
+
+.sidesection {
+  background-color: #ffffffc0;
+  height: 180dvh;
+  display: flex;
+}
+
+.sidesectionRight {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.greet-savecardsCon {
+  background-color: rgb(2, 2, 58);
+  height: 18dvh;
+  overflow: visible;
+}
+
+.greetingAndDate {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.greeting {
+  color: #fff;
+  font-size: medium;
+}
+
+.greeting-para {
+  color: ghostwhite;
+  font-size: x-small;
+}
+
+.date-time {
+  color: #fff;
+}
+
+.saveBoxesCon {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.saved-boxes {
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 15px;
+  padding: 35px 55px;
+}
+
+.head {
+  margin: 8px 0px;
+  font-size: medium;
+}
+
+.skyblue {
+  color: skyblue;
+}
+
+.slideCon {
+  padding: 25px;
+  padding-top: 200px;
+}
+
+.slideCon2 {
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.slick-slide>div {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 2px 4px rgba(102, 103, 105, 0.326);
+}
+
+
+
+.img {
+  height: 150px;
+}
+
+h3 {
+  margin: 15px 0px;
+}
+
+.para-slide {
+  text-align: left;
+}
+
+.btnCon {
+  text-align: center;
+}
+
+.btnCon1 {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.btnEl {
+  padding: 18px 8px;
+  background-color: rgb(2, 2, 46);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:768px) {
+  nav {
+    width: 60px;
+  }
+}
